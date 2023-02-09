@@ -43,4 +43,4 @@ def get_media(lista_num_reales: List):
     
     return True
 
-get_media([22, 23, 26, 26, 26, 34, 34, 38, 40])
+#get_media([22, 23, 26, 26, 26, 34, 34, 38, 40])
