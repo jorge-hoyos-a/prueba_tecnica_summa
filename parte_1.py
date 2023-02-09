@@ -11,7 +11,7 @@ def get_indexes():
         Esta función no recibe argumentos en el llamado
         
     Returns:
-        Esta función retorna los índices de los 2 números que sumados dan como resultado el número deseado
+        Esta función retorna una lista con los índices de los 2 números que sumados dan como resultado el número deseado
     """
     
     try:
@@ -36,7 +36,7 @@ def get_indexes():
 
     except Exception as e:
         print("Debes ingresar números enteros")
-        print(e)
+        #print(e)
     
     return True
 
