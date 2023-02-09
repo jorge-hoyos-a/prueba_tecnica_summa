@@ -40,7 +40,7 @@ def get_media(lista_num_reales: List) -> float:
     
     return True
 
-get_media([22, 23, 26, 26, 26, 34, 34, 38, 40])
+#get_media([22, 23, 26, 26, 26, 34, 34, 38, 40]) #Llamado de prueba la función
 
 def get_staircase(n:int):
     """Get_staircase
@@ -81,4 +81,4 @@ def get_staircase(n:int):
     
     return True
 
-#get_staircase(5)
+#get_staircase(5) #Llamado de prueba la función
