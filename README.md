@@ -11,7 +11,7 @@ Una vez cargada la carpeta del proyecto hacer llamado al archivo llamado 'consol
 ![Presentación de la consola](assets/images/consola-retos.png)<br/>
 
 ### Solución de la parte 1 del reto técnico ###
-Al ingresar el número correspondiente a la solución de la parte 1 del reto técnico, se debe ingresar en primer lugar una secuencia de números enteros separados por coma y sin espacios que será el arreglo de número en el cual se quiere evaluar la suma objetivo. En segundo lugar, se debe ingresar el valor de la suma objetivo que se desea.<br />
+Al ingresar el número correspondiente a la solución de la parte 1 del reto técnico, se debe ingresar en primer lugar una secuencia de números enteros separados por coma y sin espacios que será el arreglo de números en el cual se quiere evaluar la suma objetivo. En segundo lugar, se debe ingresar el valor de la suma objetivo que se desea.<br />
 En el caso en que por accidente se ingrese en cualquiera de los campos un caracter que no sea un número, se mostrará la siguiente recomendación:<br />
 ![Ejemplo reto 1, error al ingresar datos](assets/images/reto1-error.png)<br/>
 Al presionar la tecla enter, el programa se recargará y volverá a mostrar la consola de retos (pantalla principal).<br/>
@@ -30,7 +30,7 @@ El programa retornará para la media aritmética para el agente A, la media arm�
 La solución de este reto hace uso de la librería 'statistics' que está integrada en Python.<br />
 ![Librería estadística](assets/images/reto2-parte1-libreria-estadistica.png)<br/>
 
-Como una segunda alternativa, se incluye en el proyecto un archivo llamado 'parte2a.py' que contiene la solución al mismo reto pero que no hace uso de la librería estadística. Por defecto el programa está diseñado para que use la solución que implementa la librería de estadística. Si se desea usar la función que no la usa, en el archivo 'consola.py', en la linea 3 se debe cambiar "parte2" por "parte2a". <br/>
+Como una segunda alternativa, se incluye en el proyecto un archivo llamado 'parte_2a.py' que contiene la solución al mismo reto pero que no hace uso de la librería estadística. Por defecto el programa está diseñado para que use la solución que implementa la librería de estadística. Si se desea usar la función que no la usa, en el archivo 'consola.py', en la linea 3 se debe cambiar "parte_2" por "parte_2a". <br/>
 ![Sin libreria](assets/images/reto2-parte1-sin-libreria-estadistica.png)<br/>
 
 #### Funcionalidad 2 ####
